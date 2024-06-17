@@ -1,6 +1,9 @@
 <?php
+require 'RuleInterface.php';
 require 'RequireRule.php';
 require 'StringRule.php';
+require 'MaxRule.php';
+require 'DateRule.php';
 require 'Validator.php';
 $rules =[ 
         'title' => 'required|string|max:255',
